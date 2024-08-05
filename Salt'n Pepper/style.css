@@ -1,427 +1,442 @@
-.header {
-    width: 100%;
-    height: 130px;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    background-color: rgba(6, 5, 5, 0.901);
-    /* margin: 2em; */
-    border: 2px solid white;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.logo img {
-    width: 200px;
-    height: 120px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Salt'n Pepper</title>
+</head>
 
-nav {
-    flex-basis: 70%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
+<body>
+    <div class="header">
+        <div class="logo"><img src="./assets/images/salt img1.png" alt=""></div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Publication</a>
+            <a href="#">Feedback</a>
+            <button class="b1">Get a Frenchise</button>
+            <a href="#" class="cart">
+                <button class="b2 b11" >Order Online <svg id="icons" xmlns="http://www.w3.org/2000/svg" width="20"
+                        height="20" fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                    </svg>
+                </button>
+            </a>
+        </nav>
+    </div>
+    <div class="main">
+        <div class="overlay"></div>
+    </div>
+    <div class="main1"> <br><br><br><br>
+        <h3>Welcome to <span>Salt'n Pepper</span></h3>
+        <h3>Restuarants! Our Order</h3>
+        <p>Please click our brands below for further information, reservations or to order online!</p>
+        <div class="cards">
+            <div class="card"><img src="assets/images/salt img2.png" alt="" width="230px" height="160px">
+                <div class="content">
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="card"><img src="assets/images/salt img3.jpeg" alt="" width="230px" height="160px">
+                <div class="content">
+                    <button class="btn">Order Now</button>
+                </div>
+            </div>
+            <div class="card"><img src="assets/images/salt img4.png" alt="" width="230px" height="160px">
+                <div class="content">
+                    <button class="btn">Reserve a Table</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main2"><br><br><br>
+        <span>Salt'n Pepper <h3>Restaurant Franchises</h3></span>
+        <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</p>
+        <br><br>
+        <p><img src="assets/images/islamabad loc.webp" alt="Magnolia" class="align-left medium" /></p>
+        <section class="container1">
+            <h4>ISLAMABAD</h4>
+            <h1>Salt'n Pepper <span id="f1"> Restuarants </span></h1>
+            <p>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p>Ph: 051-2604904-6</p>
+            <button class="btn">Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg></button>
+        </section>
+        <br><br><br><br><br><br><br>
+        <p><img src="assets/images/faisalabad loc.jpg" alt="Magnolia" class="align-right medium" /></p>
+        <section class="container2">
+            <h4>FAISLABAD</h4>
+            <h1>Salt'n Pepper <span id="f1"> Restuarants </span></h1>
+            <p>4-Kohinoor City, Faisalabad</p>
+            <p>Ph: 041-8711404</p>
+            <button class="btn">Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg></button>
+        </section>
 
-nav a {
-    font-size: 20px;
-    text-decoration: none;
-    color: white;
-}
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <p><img src="assets/images/Bahawalpur loc.webp" alt="Magnolia" class="align-left medium" /></p>
+        <section class="container1">
+            <h4>ISLAMABAD</h4>
+            <h1>Salt'n Pepper <span id="f1"> Restuarants </span></h1>
+            <p>D.C Chowk, opposite Commissioner House, Bahawalpur</p>
+            <p>Ph: 062-2740271-2</p>
+            <button class="btn">Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg></button>
+        </section>
+    </div>
+    <div class="main3">
+        <br><br>
+        <span>Salt'n Pepper </span>
+        <h1 id="f2">Express Franchises</h1>
+        <br><br>
+        <div class="cards-1">
+            <div class="card-1"><img src="assets/images/Emporium.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">emporium mall</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>2nd Floor, Food Court Emporium Mall</p>
+                        <p>Ph: 0311-1100947</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/Gujranwala loc" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">Gujrawala</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>Sixteenth Avenue Mall</p>
+                        <p>Ph: 0300-6024000</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/sargodha loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">sargodha</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>Opposite Sargodha Arts Council Babar Road</p>
+                        <p>Ph: 048-3725500</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/Jhelum loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">Jhelum</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>Opposite Dancing Fountain Gallery 2 Citi Housing Jhelum</p>
+                        <p>Ph: 0307-7675555</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/Faisal Town loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">faisal town</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p> 34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
+                        <p>Ph: 042-111-100-678</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/DHA loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">dha</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>93-Y Phase III, DHA,Lahore</p>
+                        <p>Ph: 042-111-100-678</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/Bahria Town loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">bahria town</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p> Arwa Heights Building 19 Nishtar Block, Sector E, Bahria Town Lahore</p>
+                        <p>Ph: 042-111-100-678</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/Gujar Khan loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">gujar khan</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>New Metro City Gujar Khan</p>
+                        <p>Ph: 0321-1114962</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/lahore loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">lahore</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>Shop no.5, Arcade Block, Fortress Stadium, Lahore</p>
+                        <p>Ph: 042-366-23-100</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/Gujrat loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">gujrat</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>Service Mor, Gujrat</p>
+                        <p>Ph: 0311-1124600</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+            <div class="card-1"><img src="assets/images/Sahiwal loc.jpeg" alt="" width="300px" height="250px">
+                <div class="content-1">
+                    <section>
+                        <h4 id="f3">sahiwal</h4>
+                        <h1>Salt'n Pepper <span id="f1"> Express </span></h1>
+                        <p>Opposite Main Gate Police Line, Sahiwal</p>
+                        <p>Ph: 040-4515485</p>
+                        <button>Get Direction <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                fill="currentColor" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                            </svg></button>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="main4">
+        <br><br>
+        <span>Salt'n Pepper </span>
+        <h1 id="f2">Village Franchises</h1>
+        <br><br>
+        <p><img src="assets/images/gujrawala loc.png" alt="Magnolia" class="align-right1 medium" /></p>
+        <section class="container4">
+            <h4>gujaranwala</h4>
+            <h1>Salt'n Pepper <span id="f1"> Restuarants </span></h1>
+            <p>Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt</p>
+            <p>Ph: 055-3884500 l ,055-3880400</p>
+            <button class="btn" style="background-color: rgb(77, 222, 77); color: white;">Get Direction <svg
+                    xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                    class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                </svg></button>
+        </section>
+    </div>
+    <div class="main5">
+        <br><br>
+        <span>Salt'n Pepper </span>
+        <h1 id="f2">Express Franchises <span id="f5">(Opening Soon)</span></h1>
+        <br><br>
+        <div class="boxs">
+            <div class="box1">
+                <br>
+                <img src="assets/images/loc logo" alt="" width="100px" height="100px">
+                <h4>opening soon</h4>
+                <h1 style="color: black;">Salt'n Pepper</h1>
+                <p style="color: black; font-size: 23px;">Express</p>
+                <p style="color: black; font-size: 23px;">Al-Jalil Garden</p>
+                <p style="color: black; font-size: 23px;">Sadhoke</p>
+            </div>
+            <div class="box1">
+                <br>
+                <img src="assets/images/loc logo" alt="" width="100px" height="100px">
+                <h4>opening soon</h4>
+                <h1 style="color: black;">Salt'n Pepper</h1>
+                <p style="color: black; font-size: 23px;">Express</p>
+                <p style="color: black; font-size: 23px;">Al-Jalil Garden</p>
+                <p style="color: black; font-size: 23px;">Sheikhupura</p>
+            </div>
+            <div class="box1">
+                <br>
+                <img src="assets/images/loc logo" alt="" width="100px" height="100px">
+                <h4>opening soon</h4>
+                <h1 style="color: black;">Salt'n Pepper</h1>
+                <p style="color: black; font-size: 23px;">Express</p>
+                <p style="color: black; font-size: 23px;">Blue World City</p>
+                <p style="color: black; font-size: 23px;">Rawalpindi</p>
+            </div>
+            <div class="box1">
+                <br>
+                <img src="assets/images/loc logo" alt="" width="100px" height="100px">
+                <h4>opening soon</h4>
+                <h1 style="color: black;">Salt'n Pepper</h1>
+                <p style="color: black; font-size: 23px;">Express</p>
+                <p style="color: black; font-size: 23px;">City Housing</p>
+                <p style="color: black; font-size: 23px;">Gujranwala</p>
+            </div>
+            <div class="box1">
+                <br>
+                <img src="assets/images/loc logo" alt="" width="100px" height="100px">
+                <h4>opening soon</h4>
+                <h1 style="color: black;">Salt'n Pepper</h1>
+                <p style="color: black;font-size: 23px;">Express</p>
+                <p style="color: black; font-size: 23px;">City Housing</p>
+                <p style="color: black;font-size: 23px;">Sialkot</p>
+            </div>
+            <div class="box1">
+                <br>
+                <img src="assets/images/loc logo" alt="" width="100px" height="100px">
+                <h4>opening soon</h4>
+                <h1 style="color: black;">Salt'n Pepper</h1>
+                <p style="color: black;font-size: 23px;">Express</p>
+                <p style="color: black;font-size: 23px;">Al-Jalil Garden</p>
+                <p style="color: black; font-size: 23px;">Sharqpur</p>
+            </div>
+            <div class="box1">
+                <br>
+                <img src="assets/images/loc logo" alt="" width="100px" height="100px">
+                <h4>opening soon</h4>
+                <h1 style="color: black;">Salt'n Pepper</h1>
+                <p style="color: black; font-size: 23px;">Express</p>
+                <p style="color: black;font-size: 23px;">Burewala</p>
+            </div>
+        </div>
+    </div>
+    <div class="main6">
+        <br><br>
+        <span class="social">Social Feed </span>
+        <br><br><br><br><br>
+        
+        <figure class="fig">
+            <img src="assets/images/Karahi.jpeg" alt="" width="250px" height="250px">
+            <img src="assets/images/Burger.jpeg" alt="" width="250px" height="250px">
+            <img src="assets/images/juice.jpeg" alt="" width="250px" height="250px">
+            <img src="assets/images/Karachi1.jpeg" alt="" width="250px" height="250px">
+            <img src="assets/images/Kofta kabab.jpeg" alt="" width="250px" height="250px">
+        </figure>
 
-nav a:hover {
-    transform: scaleX(0);
-    transition: all 0.6s ease;
-}
+    </div>
+    <div class="main7">
+        <section class="footer s1">
+            <div class="footer-content">
+                <img src="assets/images/salt img1.png" alt="">
+                <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary
+                    classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in
+                    Lahore. From family occasions to business dinner and moments of the heart, this place is where
+                    unforgettable memories are made.</p>
+                <br>
+                <p>Term & Condition Privacy Policy</p>
+            </div>
+            <div class="footer-content">
+                <h1 id="f6">Site Links</h1>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Publications</a></li>
+                <li><a href="">Get a Franchises</a></li>
+                <li><a href="">Feedback</a></li>
+            </div>
+            <div class="footer-content">
+                <h1 id="f6">Contact Us</h1>
+                <li>
+                    <h2>Head Office Address</h2>
+                </li>
+                <li>
+                    <p>23-Usman Block, New GardenTown, Lahore, Pakistan</p>
+                </li>
+                <li>
+                    <h2>Head Office Number</h2>
+                </li>
+                <li><a href="tel:+92 42 358 509 31">+92 42 358 509 31</a></li>
+                <li><a href="tel:++92 42 358 509 30">+92 42 358 509 30</a></li>
+                <li>
+                    <h2>Email Address</h2>
+                </li>
+                <li><a href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a></li>
+                <li>
+                    <h2>Free Delivery Number</h2>
+                </li>
+                <li><a href="tel:+92 42 111 100 678">+92 42 111 100 678</a></li>
+                <li><a href="tel:+92 03 111 444 610">+92 03 111 444 610</a></li>
+            </div>
+            <div class="footer-content">
+                <div class="icons">
+                    <h1 id="f6">Follow Us</h1>
+                    <a href="https://www.facebook.com/TheSaltnPepperRestaurants/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-facebook" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                        </svg></a>
+                    <a href="https://www.instagram.com/saltnpepper_official/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                        </svg></a>
+                    <a href="https://twitter.com/snprestaurant" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                            class="bi bi-twitter" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                        </svg></a>
+                </div>
+                <a href="https://apps.apple.com/tr/app/saltn-pepper/id1631088988" target="_blank"><img src="assets/images/appstore.png" alt="" width="250px" height="200px"></a>
+            </div>
+        </section>
+    </div>
+</body>
 
-.b1 {
-    width: 160px;
-    height: 50px;
-    background-color: #121212;
-    color: white;
-    outline: none;
-    border: 1px solid white;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.b1:hover {
-    background-color: #ed1c24;
-}
-
-.b2 {
-    width: 160px;
-    height: 50px;
-    background-color: #ed1c24;
-    color: white;
-    outline: none;
-    border: 1px solid #ed1c24;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.b2:hover {
-    background-color: black;
-}
-
-.main {
-    background-image: url(assets/images/main1);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    position: relative;
-}
-
-.main1 {
-    width: 100%;
-    height: 120vh;
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-.cards {
-    min-height: 50vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3em;
-}
-
-.card {
-    width: 200px;
-    height: 100px;
-    margin: 1em;
-    border-radius: 20px;
-    box-shadow: rgba(19, 19, 19, 0.35) 0px 5px 15px;
-}
-
-.content {
-    padding: 1em;
-}
-
-h3 {
-    font-size: 40px;
-    font-family: 'sans-serif';
-    font-weight: 200;
-}
-
-span {
-    letter-spacing: 5px;
-    font-family: "Abril Fatface", serif;
-    font-weight: 550;
-    font-size: 60px;
-}
-
-p {
-    font-size: 19px;
-    font-weight: 100;
-    color: rgba(176, 176, 176, 0.995);
-}
-
-h1 {
-    font-family: "Abril Fatface", serif;
-    font-weight: 500;
-    font-size: 30px;
-}
-
-#f6 {
-    font-family: 'sans-serif';
-    font-weight: 500;
-    font-size: 30px;
-}
-
-#f2 {
-    font-family: 'sans-serif';
-    font-weight: bolder;
-    font-size: 50px;
-    letter-spacing: 5px;
-}
-
-#f1 {
-    font-size: 30px;
-    font-family: 'sans-serif';
-    font-weight: 200;
-}
-
-h4 {
-    color: #ed1c24;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    font-size: 20px;
-}
-
-#f3 {
-    color: #ed1c24;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 15px;
-    font-weight: 200;
-}
-
-h4:hover {
-    transform: translateY(-3px) translateX(-5px);
-    color: #ed1c24;
-}
-
-button {
-    width: 160px;
-    height: 50px;
-    background-color: #121212;
-    color: white;
-    outline: none;
-    border: 1px solid white;
-    border-radius: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.main2 {
-    width: 100%;
-    height: 220vh;
-    background-color: rgb(26, 26, 26);
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-.container1 {
-    color: white;
-    text-transform: capitalize;
-    /* float: left;  */
-    text-align: justify;
-    margin-left: 200px;
-}
-
-img.align-left {
-    float: right;
-    width: 600px;
-    height: 350px;
-    margin-right: 100px;
-}
-
-img.align-right {
-    float: left;
-    margin-left: 200px;
-    width: 600px;
-    height: 350px;
-}
-
-.container2 {
-    color: white;
-    text-transform: capitalize;
-    float: right;
-    text-align: justify;
-    margin-right: 100px;
-}
-
-.main3 {
-    width: 100%;
-    height: 400vh;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-.cards-1 {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2em;
-
-}
-
-.card-1 {
-    width: 400px;
-    height: 600px;
-    text-align: center;
-    background-color: black;
-}
-
-.card-1 img {
-    width: 350px;
-    height: 300px;
-
-}
-
-.content-1 {
-    float: center;
-    padding: 1em;
-}
-
-.container3 {
-    color: white;
-    text-transform: capitalize;
-    float: center;
-    text-align: justify;
-    margin-right: 120px;
-}
-
-.main4 {
-    width: 100%;
-    height: 120vh;
-    background-color: rgb(26, 26, 26);
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-img.align-right1 {
-    float: left;
-    width: 700px;
-    height: 420px;
-    margin-right: 15px;
-}
-
-.container4 {
-    color: white;
-    text-transform: capitalize;
-    float: center;
-    text-align: justify;
-    margin-left: 200px;
-
-}
-
-.main5 {
-    width: 100%;
-    height: 220vh;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-#f5 {
-    font-family: 'sans-serif';
-    font-weight: bolder;
-    font-size: 30px;
-    letter-spacing: 5px;
-}
-
-.boxs {
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3em;
-
-}
-
-.box1 {
-    width: 400px;
-    height: 400px;
-    background-color: white;
-    color: white;
-    text-align: center;
-    position: relative;
-    margin: 0px, 0px, 50px, 0px;
-    border-radius: 15px;
-
-}
-
-.main6 {
-    width: 100%;
-    height: 80vh;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    text-align: center;
-    position: relative;
-    gap: 2em;
-}
-
-.main7 {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(26, 26, 26);
-    color: white;
-    position: relative;
-}
-
-.s1 {
-    padding: 80px 13% 70px;
-
-}
-
-.footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
-    gap: 3.5rem;
-    background-color: rgb(26, 26, 26);
-    position: absolute;
-    left: 0;
-    right: 0;
-    /* bottom: 0; */
-}
-
-.footer-content h4 {
-    color: #fff;
-    margin-bottom: 1.5rem;
-    font-size: 20px;
-}
-
-.footer-content li {
-    margin-bottom: 16px;
-    list-style-type: none;
-}
-
-.footer-content li a {
-    display: block;
-    color: #d6d6d6;
-    font-size: 20px;
-    font-weight: 400;
-    transition: all .40s ease;
-    text-decoration: none;
-}
-
-.footer-content li a:hover {
-    transform: translateY(-3px) translateX(-5px);
-    color: #fff;
-}
-
-.footer-content p {
-    color: #d6d6d6;
-    font-size: 20px;
-    line-height: 30px;
-    margin: 20px 0;
-    font-weight: 200;
-}
-
-.icons a {
-    display: inline block;
-    font-size: 22px;
-    color: #ed1c24;
-    margin-right: 17px;
-    transition: all.40s ease;
-}
-
-.icons a:hover {
-    color: #fff;
-    transform: translateY(-3px) translateX(-5px);
-}
-
-#icons {
-    height: 28px;
-    width: 28px;
-    float: inline-end;
-}
-
-.fig {
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    padding: 1em;
-}
+</html>
